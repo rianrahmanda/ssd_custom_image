@@ -1,8 +1,5 @@
 ##### Calculate object detection mAP score #####
-#
-# Author: Evan Juras, EJ Technology Consultants (https://ejtech.io)
-# Date: 11/12/22
-#
+
 # Description: 
 # This script determines an object detection model's mAP score using a calculator from https://github.com/Cartucho/mAP .
 # It calculates the COCO metric (mAP @ 0.5:0.95) by running the calculator script ("main.py") multiple times at different
