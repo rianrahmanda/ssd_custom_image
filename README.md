@@ -10,7 +10,7 @@ contoh:
 mkdir D:\tflite1
 cd D:\tflite1
 ```
-4. buat virtual environment Python 3.9 menggunakan script berikut ini:
+3. buat virtual environment Python 3.9 menggunakan script berikut ini:
 ```
 conda create --name tflite1-env python=3.9
 ```
@@ -29,4 +29,4 @@ pip install tensorflow opencv-python protobuf==3.20.*
 curl https://raw.githubusercontent.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/master/TFLite_detection_webcam.py --output TFLite_detection_webcam.py
 ```
 
-7. Jalankan perintah ```python TFLite_detection_webcam.py --modeldir=custom_model_lite``` untuk menjalankan kode yang dibuat
+6. Jalankan perintah ```python TFLite_detection_webcam.py --modeldir=custom_model_lite``` untuk menjalankan kode yang dibuat
